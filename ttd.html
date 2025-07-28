@@ -1,0 +1,208 @@
+<!-- <!DOCTYPE html>
+<html lang="te">
+<head>
+    <style>
+        body.ttd-theme {
+  background: url("assets/images/temple_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #3b2f1b;
+  font-family: 'Noto Serif Telugu', sans-serif;
+}
+
+header {
+  background: #e0a106;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #4d2e00;
+}
+
+.darshan-card {
+  background: rgba(255, 255, 255, 0.85);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.darshan-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.audio-play {
+  text-align: center;
+  margin: 20px;
+}
+
+.audio-play button {
+  background: #6a040f;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+    </style>
+    <script>function playGovinda() {
+  const audio = new Audio("assets/audio/govinda.mp3");
+  audio.play();
+}
+</script>
+  <meta charset="UTF-8">
+  <title>TTD దర్శనం సేవలు</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="ttd-theme">
+  <header>
+    <h1>🙏 తిరుమల దర్శనం - MeeSeva</h1>
+    <a href="index.html">← హోమ్‌కు తిరిగి వెళ్లండి</a>
+  </header>
+
+  <section class="audio-play">
+    <button onclick="playGovinda()">🔊 గోవిందా పాట ప్లే చేయండి</button>
+  </section>
+
+  <section class="darshan-card">
+    <img src="assets/images/vip.png" alt="VIP Darshan" />
+    <h2>VIP దర్శనం</h2>
+    <p>అత్యంత ప్రత్యేకమైన వ్యక్తులకు – వేళగా మరియు త్వరిత దర్శనం. ఆధారాలు తప్పనిసరి.</p>
+    <label>తేదీ ఎంచుకోండి:</label>
+    <input type="date" />
+  </section>
+
+  <section class="darshan-card">
+    <img src="assets/images/special.png" alt="Special Darshan" />
+    <h2>ప్రత్యేక ప్రవేశ దర్శనం</h2>
+    <p>₹300/- టికెట్‌తో సులభ దర్శనం. ప్రతిరోజూ ఉదయం 9 నుండి రాత్రి 9 వరకూ అందుబాటులో ఉంటుంది.</p>
+    <label>తేదీ ఎంచుకోండి:</label>
+    <input type="date" />
+  </section>
+
+  <section class="darshan-card">
+    <img src="assets/images/kalyanavedika.png" alt="Kalyana Vedika" />
+    <h2>కల్యాణ వేదిక సేవలు</h2>
+    <p>వివాహం, శాస్త్రం, కేశకండన సేవల కోసం ప్రత్యేక ఏర్పాట్లు. ముందస్తు రిజర్వేషన్ అవసరం.</p>
+    <label>తేదీ ఎంచుకోండి:</label>
+    <input type="date" />
+  </section>
+
+  <footer>
+    <p>📍 MeeSeva Center, Mahabubnagar | 📞 8184910262</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <style>
+        body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('assets/images/tirumala_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  backdrop-filter: blur(2px);
+}
+
+.ttd-header {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px 10px;
+}
+
+.darshan-options {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.option {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  width: 250px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.option img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.dates-section {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+    </style>
+  <meta charset="UTF-8">
+  <title>TTD దర్శనం బుకింగ్</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio autoplay loop>
+    <source src="assets/audio/govinda.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="ttd-header">
+    <h1>శ్రీ తిరుమల తిరుపతి దేవస్థానం సేవలు</h1>
+    <p>Govinda Govinda 🙏</p>
+  </div>
+
+  <div class="darshan-options">
+    <div class="option">
+      <img src="assets/images/vip.jpg" alt="VIP Darshan">
+      <h3>VIP దర్శనం</h3>
+      <p>ప్రత్యేకంగా అధికారుల మార్గదర్శకంతో దర్శనం</p>
+    </div>
+    <div class="option">
+      <img src="assets/images/special.jpg" alt="Special Darshan">
+      <h3>Special దర్శనం</h3>
+      <p>టైమ్ స్లాట్ ఆధారంగా ముందస్తుగా బుకింగ్</p>
+    </div>
+    <div class="option">
+      <img src="assets/images/kalyan.jpg" alt="Kalyana Vedika">
+      <h3>కల్యాణవేదిక సేవ</h3>
+      <p>వివాహ కార్యక్రమాల కోసం సేవ</p>
+    </div>
+  </div>
+
+  <div class="dates-section">
+    <h2>📅 విడుదల తేదీలు:</h2>
+    <table>
+      <tr><th>సేవ పేరు</th><th>తేదీ</th><th>డౌన్లోడ్</th></tr>
+      <tr><td>VIP దర్శనం</td><td>2025-07-20</td><td><a href="#">ఫారమ్ డౌన్లోడ్</a></td></tr>
+      <tr><td>Special దర్శనం</td><td>2025-07-21</td><td><a href="#">ఫారమ్ డౌన్లోడ్</a></td></tr>
+      <tr><td>కల్యాణవేదిక</td><td>2025-07-25</td><td><a href="#">ఫారమ్ డౌన్లోడ్</a></td></tr>
+    </table>
+  </div>
+
+</body>
+</html>
